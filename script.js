@@ -17,12 +17,12 @@ function toggleModel() {
     //substituir a imagem
       if(html.classList.contains('light')) {
         //se tiver light mod, adicionar a imagem light
-        img.setAttribute('src', './assets/Avatar-light.png')
-        alt.setAttribute('alt', "Foto de Patrícia Ester sorrindo, usando óculos escuros e blusa preta, fundo degradê massala e azul")
+        img.setAttribute('src', './assets/avatar-light1.png')
+        alt.setAttribute('alt', "Foto de Patrícia Ester sorrindo, usando óculos escuros e blusa preta, fundo futuristico colorido")
 
     } else {
         // se tiver sem light mode, manter a imagem normal
-        img.setAttribute('src', './assets/avatar.png')
+        img.setAttribute('src', './assets/avatar1.png')
         
     }
 
